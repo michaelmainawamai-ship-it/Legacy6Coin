@@ -36,10 +36,8 @@ Our mission:
 - **Symbol:** L6C  
 - **Type:** Decentralized digital asset  
 - **Supply:** Fixed (as deployed on-chain)  
-- **Network:** _[Insert network: Ethereum / Sepolia / etc.]_  
-- **Contract Address:** _[Insert contract address]_  
-
-> Update this section once you confirm the network and contract address.
+- **Network:** Sepolia Testnet  
+- **Contract Address:** `0xae0F6F5B2E3C2312d9748d7A18642Af041f8b925`  
 
 ---
 
@@ -51,8 +49,8 @@ The following information is recorded for transparency. **This is not a source-v
 - **Contract address shown on the Sepolia Etherscan page:** `0xae0F6F5B2E3C2312d9748d7A18642Af041f8b925`
 - **Creator shown on that page:** `0x21EC335039Bca45896f75741433FF869d8a1cB8c`
 - **Etherscan page label:** ERC-20: Legacy6Coin (L6C)
-- **Source verification / Read Contract:** The supplied page view displayed “Verify and Publish your contract source code today!” and did not show a Read Contract tab. Source verification and live function values are therefore not confirmed here.
-- **Reported deployment transaction:** `0x8a3bc2c2c8a6b24d477845771c81bc125af4b69fee89ae28fff58141e2e812a7` (reported block `12119036`). These transaction details were supplied for review but were not independently confirmed in this review.
+- **Source verification / Read Contract:** The supplied page view displayed “Verify and Publish your contract source code today!” and did not show a Read Contract tab. Source verification and live function values remain unconfirmed from the available public view.
+- **Reported deployment transaction:** `0x8a3bc2c2c8a6b24d477845771c81bc125af4b69fee89ae28fff58141e2e812a7` (reported block `12119036`). These transaction details were supplied for review but were not independently verified in this repository record.
 
 ### Bytecode comparison note
 
