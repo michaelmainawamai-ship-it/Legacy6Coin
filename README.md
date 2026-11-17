@@ -49,17 +49,17 @@ The following information is recorded for transparency. **This is not a source-v
 - **Contract address shown on the Sepolia Etherscan page:** `0xae0F6F5B2E3C2312d9748d7A18642Af041f8b925`
 - **Creator shown on that page:** `0x21EC335039Bca45896f75741433FF869d8a1cB8c`
 - **Etherscan page label:** ERC-20: Legacy6Coin (L6C)
-- **Source verification / Read Contract:** The supplied page view displayed “Verify and Publish your contract source code today!” and did not show a Read Contract tab. Source verification and live function values remain unconfirmed from the available public view.
-- **Reported deployment transaction:** `0x8a3bc2c2c8a6b24d477845771c81bc125af4b69fee89ae28fff58141e2e812a7` (reported block `12119036`). These transaction details were supplied for review but were not independently verified in this repository record.
+- **Source verification / Read Contract:** The supplied page view displayed “Verify and Publish your contract source code today!” and did not show a Read Contract tab. Source verification and [
+- **Reported deployment transaction:** `0x8a3bc2c2c8a6b24d477845771c81bc125af4b69fee89ae28fff58141e2e812a7` (reported block `12119036`). These transaction details were supplied for review but were[...]
 
 ### Bytecode comparison note
 
-The supplied `Legacy6CoinV2.json` artifact identifies `Legacy6CoinV2`, source name `contracts/Legacy6CoinV2.sol`, and Solidity compiler `0.8.31`. Comparing its `deployedBytecode` with the runtime bytecode displayed in the supplied Etherscan page text, the visible executable portions appear to match, but the Solidity metadata hashes differ:
+The supplied `Legacy6CoinV2.json` artifact identifies `Legacy6CoinV2`, source name `contracts/Legacy6CoinV2.sol`, and Solidity compiler `0.8.31`. Comparing its `deployedBytecode` with the runtime [...]
 
 - **Artifact metadata hash:** `30647e015cb5186c8e74327cd9b9a590d5d47bbd355bf31596155b5fadad002c`
 - **Etherscan-displayed runtime metadata hash:** `526627152f11b4ec0ea42d778f2a3d1268a881c3c64d7eb9d12083fab1ae0fd4`
 
-This is **not an exact byte-for-byte match**. The difference prevents claiming an exact source/build match from these materials alone. The metadata difference can arise from different source or compilation metadata; it does not by itself establish a functional contract defect. Obtain the exact frozen Standard JSON compiler input and independently compare against the on-chain runtime before making a verification claim.
+This is **not an exact byte-for-byte match**. The difference prevents claiming an exact source/build match from these materials alone. The metadata difference can arise from different source or co[...]
 
 ### Expected V2 values (not live-verified)
 
@@ -73,9 +73,9 @@ The following are deployment expectations, not confirmed current on-chain reads:
 - Initial lifetime issuance headroom: `334,000 L6C`
 - Deployer/founder is also witness 5, so the expected initial combined balance is `661,000 L6C`; witnesses 0–4 are expected to receive `1,000 L6C` each.
 
-Current balances and `totalSupply` may change after transfers or burns. Burning reduces `totalSupply` but does not restore lifetime issuance headroom because `totalMinted` is cumulative. Do not treat these expected values as observed live state.
+Current balances and `totalSupply` may change after transfers or burns. Burning reduces `totalSupply` but does not restore lifetime issuance headroom because `totalMinted` is cumulative. Do not tr[...]
 
-**Status: verification blocked/incomplete. No release GO is established. Mainnet is not authorized by this status note.** Do not submit source to Etherscan or make any transaction as part of read-only verification.
+**Status: verification blocked/incomplete. No release GO is established. Mainnet is not authorized by this status note.** Do not submit source to Etherscan or make any transaction as part of read-[...]
 
 ---
 
@@ -135,6 +135,152 @@ Always:
 - Do your own research (DYOR)  
 - Understand the risks of cryptocurrency  
 - Participate responsibly  
+
+---
+
+## 📜 Legacy6Coin (L6C) Liquidity Policy
+
+### Purpose
+
+This policy explains how liquidity for Legacy6Coin (L6C) will be created, managed, disclosed, and reported.
+
+The objective is to provide transparency for token holders, developers, auditors, and community participants.
+
+Legacy6Coin prioritizes sustainability, verifiable disclosures, and responsible stewardship over short-term speculation.
+
+---
+
+## Guiding Principles
+
+The project commits to:
+
+- Transparency over secrecy
+- Sustainability over hype
+- Long-term participation over short-term speculation
+- Public disclosures for significant liquidity actions
+- Clear documentation of treasury-related decisions
+
+---
+
+## Current Token Supply Position
+
+### Maximum Supply
+
+1,000,000 L6C
+
+### Initial Distribution
+
+| Category | Amount |
+| --- | --- |
+| Founder Allocation | 660,000 L6C |
+| Witness Allocations | 6,000 L6C |
+| Initial Mint Total | 666,000 L6C |
+
+### Remaining Issuable Supply
+
+334,000 L6C
+
+Any future issuance remains subject to the hard supply cap enforced by the smart contract.
+
+---
+
+## Liquidity Objectives
+
+Liquidity may be introduced to:
+
+- Enable market participation
+- Improve price discovery
+- Support exchange integrations
+- Improve accessibility for token holders
+
+Liquidity is not intended to create artificial demand or misleading market activity.
+
+---
+
+## Initial Liquidity Framework
+
+Prior to any mainnet liquidity event, the project should publicly disclose:
+
+- Liquidity pool destination
+- Amount of L6C being contributed
+- Amount of paired assets being contributed
+- Blockchain transaction references
+- Purpose of the liquidity event
+
+---
+
+## Liquidity Transparency Commitments
+
+The project intends to publicly disclose:
+
+### Liquidity Creation
+
+- Pool creation
+- Initial liquidity deposits
+- Additional liquidity contributions
+
+### Liquidity Modification
+
+- Liquidity increases
+- Liquidity decreases
+- Liquidity migrations
+- Liquidity restructuring
+
+### Treasury-Related Transfers
+
+Significant treasury transactions should include:
+
+- Date
+- Amount
+- Purpose
+- Transaction hash when available
+
+---
+
+## Founder Disclosure Commitment
+
+The founder intends to communicate material actions affecting liquidity or circulating supply.
+
+Examples may include:
+
+- Major liquidity additions
+- Large treasury transfers
+- Supply-related announcements
+- Ownership transitions
+
+---
+
+## Market Integrity
+
+Legacy6Coin does not support:
+
+- Wash trading
+- Artificial volume generation
+- Undisclosed market manipulation
+- Deceptive trading practices
+- Misleading liquidity disclosures
+
+---
+
+## Risks
+
+Participants should understand:
+
+- Cryptocurrency markets are volatile.
+- Liquidity does not guarantee price stability.
+- Liquidity does not guarantee demand.
+- Market activity may fluctuate significantly.
+- Future token value is not guaranteed.
+
+---
+
+## Future Revisions
+
+This document may evolve as the ecosystem matures.
+
+Any material revision should be documented publicly through repository updates and community communication channels.
+
+Transparency remains a core project principle.
 
 ---
 
