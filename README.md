@@ -1,4 +1,4 @@
-<img width="4032" height="381" alt="image" src="https://github.com/user-attachments/assets/54c6d2d3-ee78-4dee-b250-6e4e768d4c48" />
+
 # Legacy 6 Coin (L6C)
 
 **A Symbol of Resilience for a Global Crypto Future**
