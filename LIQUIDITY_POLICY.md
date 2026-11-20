@@ -114,6 +114,8 @@ Material treasury actions should be publicly documented whenever practical. Exam
 - Ecosystem expenditures
 - Reserve allocations
 
+For the policy governing unallocated issuance capacity and future treasury disclosures, see [TREASURY_POLICY.md](TREASURY_POLICY.md).
+
 ## Market Integrity
 
 Legacy6Coin does not support:

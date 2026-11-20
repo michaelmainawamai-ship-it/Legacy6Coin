@@ -19,3 +19,5 @@ As of Legacy6Coin Archive v1.0, the remaining 334,000 L6C has not been formally 
 ## Status and scope
 
 These figures describe the current documented Legacy6CoinV2 supply facts. Mainnet is not deployed. This document does not imply that remaining issuable supply will be issued, nor does it make claims about future value or market outcomes. Material issuance events should be recorded in the [Disclosure Ledger](DISCLOSURE_LEDGER.md).
+
+See [TREASURY_POLICY.md](TREASURY_POLICY.md) for the policy governing the unallocated reserve and future issuance disclosures.

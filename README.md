@@ -27,6 +27,7 @@ As of Legacy6Coin Archive v1.0, the remaining 334,000 L6C has not been formally 
 ## Documentation
 
 - [TOKENOMICS.md](TOKENOMICS.md) — supply facts and issuance disclosure
+- [TREASURY_POLICY.md](TREASURY_POLICY.md) — treasury transparency and unallocated issuance reserve governance
 - [LIQUIDITY_POLICY.md](LIQUIDITY_POLICY.md) — liquidity, treasury, and founder-wallet disclosure standards
 - [DISCLOSURE_LEDGER.md](DISCLOSURE_LEDGER.md) — public record template for material disclosures
 - [AUDIT_NOTES.md](AUDIT_NOTES.md) — historical verification context
