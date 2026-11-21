@@ -12,6 +12,11 @@ Legacy6Coin (L6C) is a digital asset project guided by transparency, stewardship
 
 The verification status above reflects the current project documentation. Historical verification uncertainty recorded in earlier documentation is retained in [AUDIT_NOTES.md](AUDIT_NOTES.md) for context; it is not the current status.
 
+## Whitepapers
+
+- [WHITEPAPER.md](WHITEPAPER.md) — **Historical Version (v1)**
+- [WHITEPAPER_V2.md](WHITEPAPER_V2.md) — **Current Version (v2)**
+
 ## Token supply
 
 | Item | Amount |
