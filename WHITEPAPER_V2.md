@@ -1,267 +1,228 @@
 # Legacy 6 Coin (L6C) — Whitepaper v2
 
-**Archive lineage:** Legacy6Coin Archive v1.0
-**Document status:** Current project whitepaper
-**Network status:** Sepolia testnet
-**Contract:** `Legacy6CoinV2`
-**Sepolia contract address:** `0xae0F6F5B2E3C2312d9748d7A18642Af041f8b925`
+**Archive lineage:** Legacy6Coin Archive v1.0  
+**Document status:** Current project whitepaper  
+**Network status:** Ethereum Sepolia testnet  
+**Contract:** `Legacy6CoinV2`  
+**Sepolia contract address:** `0xae0F6F5B2E3C2312d9748d7A18642Af041f8b925`  
 **Ethereum mainnet:** Not deployed
 
 ---
 
+## Current Project Status
+
+- Sepolia deployment completed.
+- Sepolia source verification completed.
+- Legacy6Coin Archive v1.0 published.
+- Governance documentation published.
+- Security documentation published.
+- Tokenomics published.
+- Liquidity Policy published.
+- Treasury Policy published.
+- Recovery Plan published.
+- Testing Log published.
+
+Mainnet has not been deployed. Testnet assets have no implied mainnet value or equivalence. Source verification supports public comparison of the deployed contract with its source; it is not an independent security audit or a guarantee of security.
+
+## Verified Contract Information
+
+- **Network:** Ethereum Sepolia
+- **Contract address:** `0xae0F6F5B2E3C2312d9748d7A18642Af041f8b925`
+- **Source verification:** [Sepolia Etherscan contract code](https://sepolia.etherscan.io/address/0xae0F6F5B2E3C2312d9748d7A18642Af041f8b925#code)
+- **Mainnet:** Not deployed
+
+Verify the network and address independently before interacting with a token. The Sepolia deployment does not establish a mainnet deployment or value.
+
 ## 1. Introduction
 
-Legacy 6 Coin (L6C) is a decentralized digital asset designed around resilience, transparency, stewardship, and meaningful participation. It began as a response to intense pressure and uncertainty, transforming lived difficulty into a public project that records its assumptions, controls, decisions, and limitations rather than concealing them.
+Legacy 6 Coin (L6C) is a decentralized digital asset designed for a global audience. It was created as a symbol of resilience—born from a period of intense pressure and uncertainty, and transformed into a project that aims to build long-term value through purpose, transparency, and community.
 
-This document is the current whitepaper. It uses Legacy6Coin Archive v1.0 as its narrative foundation and records the project’s present technical and governance state. It does not promise financial returns, future market outcomes, or guaranteed utility.
+This v2 document preserves the original whitepaper’s story and vision while recording the current project status and the principles that guide its development. It does not promise financial returns or future market outcomes.
 
 ## 2. Scars That Sing
 
-**Scars That Sing** describes the founding philosophy of Legacy6Coin.
+**Scars That Sing** is the founding philosophy of Legacy6Coin.
 
-A scar is evidence that pressure happened and that a person or community endured it. Legacy6Coin does not treat hardship as spectacle, nor does it claim that struggle guarantees success. It treats adversity as context: a reason to document truth, preserve dignity, remain accountable, and build carefully.
+Legacy6Coin was created during adversity. The project treats that origin not as a guarantee of success, but as a reminder that what happens under pressure should be met with honesty, care, and a commitment to learn. Resilience means continuing thoughtfully while acknowledging uncertainty and risk.
 
-The phrase “Scars that sing” expresses three commitments:
+The phrase “Scars that sing” expresses a belief that lived experience can be acknowledged without being hidden or turned into hype. “Echoes that remain” points to the importance of preserving an honest record. “Legacy that walks forward” calls for carrying lessons into responsible action.
 
-1. **Turn experience into evidence.** Document what happened, what changed, and what remains uncertain.
-2. **Let testimony become stewardship.** Preserve records and make project decisions understandable rather than hiding them behind claims or speculation.
-3. **Carry hope without hype.** Recognize resilience without promising that effort will produce a particular price, return, or outcome.
+These ideas are reflected in the project’s working principles:
 
-“Echoes that remain. Legacy that walks forward.” means that a project should leave a verifiable record: source code, documented supply, public disclosures, and a clear account of ownership and responsibility.
+- **Resilience:** respond to difficulty with patience and responsible adaptation.
+- **Transparency:** make project status, decisions, risks, and limitations visible.
+- **Documentation:** preserve records so people can inspect what was decided and what changed.
+- **Recovery planning:** prepare for key loss, operational failure, and mistakes, while recognizing that some on-chain actions cannot be reversed.
+- **Stewardship:** handle project authority and resources carefully, with clear accountability.
 
-This philosophy is why Legacy6Coin emphasizes transparency. Scars can be inherited, misunderstood, or exploited. Singing scars means naming them honestly and converting that truth into durable, auditable practice.
+This philosophy does not suggest that adversity ensures financial or project success. It asks the project to tell the truth about its history and present condition, and to build practices that can be reviewed.
 
 ## 3. Vision
 
-Legacy6Coin’s vision is to become a recognizable digital asset and public archive representing resilience, transparent communication, and meaningful participation.
+The crypto world includes projects shaped by speculation, hype, and manipulation. Legacy 6 Coin seeks a different path.
 
-Legacy6Coin is not presented as a meme coin or a short-term trading opportunity, but as a symbol coin: a token carrying a story and identity alongside verifiable on-chain behavior.
+**Vision:** To become a globally recognized digital asset that represents resilience, transparency, and meaningful participation.
 
-The vision is not a market forecast. Visibility, adoption, liquidity, exchange listings, and value are uncertain and cannot be assured.
+Legacy 6 Coin is not positioned as a meme coin or a quick pump, but as a symbol coin: a token that carries a story and identity alongside its technical existence on-chain. Recognition, adoption, liquidity, exchange listings, and value are uncertain and cannot be assured.
 
 ## 4. Mission
 
-Legacy6Coin’s mission rests on four pillars:
+Legacy 6 Coin’s mission can be summarized in three pillars:
 
-1. **Resilience:** Represent the idea that strength can emerge from adversity while acknowledging that risk and uncertainty remain.
-2. **Transparency:** Publicly document the contract, supply, deployment, ownership, governance, treasury, and material changes.
-3. **Stewardship:** Protect users and project continuity through careful controls, disclosure, and recovery planning.
-4. **Participation:** Invite informed community participation without representing participation or holding tokens as a guaranteed source of value.
+1. **Resilience:** Represent the idea that people can endure adversity and continue forward, without claiming that hardship guarantees success.
+2. **Transparency:** Maintain clear, open communication about the contract, supply, roadmap, governance, treasury, risks, and project direction.
+3. **Global participation:** Make project information accessible to people who resonate with its story and values, and support informed participation.
 
 ## 5. Token concept
 
 - **Name:** Legacy 6 Coin
 - **Symbol:** L6C
-- **Contract:** `Legacy6CoinV2`
 - **Type:** ERC-20 digital asset
+- **Contract:** `Legacy6CoinV2`
 - **Network:** Ethereum Sepolia testnet
 - **Chain ID:** `11155111`
 - **Contract address:** `0xae0F6F5B2E3C2312d9748d7A18642Af041f8b925`
-- **Explorer:** [Sepolia contract](https://sepolia.etherscan.io/address/0xae0F6F5B2E3C2312d9748d7A18642Af041f8b925)
 - **Maximum lifetime supply:** 1,000,000 L6C
-- **Initial minted supply:** 666,000 L6C
-- **Remaining issuable supply:** 334,000 L6C
 - **Ethereum mainnet:** Not deployed
 
-Source verification for the Sepolia deployment is completed. Verification allows reviewers to compare published source with the deployed contract. It is not an independent security audit and does not establish that the contract is free of defects.
+The blockchain allows participants to inspect transactions and verify supply and contract state. Source verification does not by itself establish that the contract is free of vulnerabilities or independently audited.
 
-Sepolia assets are testnet assets. The Sepolia deployment has no implied mainnet value or equivalence.
-
-## 6. Supply and allocations
+## 6. Tokenomics
 
 | Supply item | Amount |
 | --- | ---: |
-| Maximum supply | 1,000,000 L6C |
-| Founder allocation | 660,000 L6C |
-| Witness allocations | 6,000 L6C (1,000 L6C each) |
-| Initial minted supply | 666,000 L6C |
-| Remaining issuable supply | 334,000 L6C |
+| Maximum Supply | 1,000,000 L6C |
+| Initial Minted Supply | 666,000 L6C |
+| Founder Allocation | 660,000 L6C |
+| Witness Allocations | 6,000 L6C |
+| Remaining Issuable Capacity | 334,000 L6C |
 
-The founder allocation and six witness allocations comprise the documented initial issuance. Witness status is a recorded community role and does not by itself grant ownership or administrative authority.
+As of Legacy6Coin Archive v1.0, the remaining 334,000 L6C remains unallocated and any future issuance should be publicly disclosed.
 
-The remaining 334,000 L6C has not been formally allocated. It is remaining issuance capacity under the hard supply cap, not a separate treasury account and not a promise that it will be issued.
+The six witness allocations total 6,000 L6C. Witness status is a recorded community role and does not itself grant ownership or administrative authority. The remaining issuable capacity is not necessarily a separate wallet balance or treasury account, and is not a commitment to issue tokens. The contract owner can issue tokens only within the contract’s hard maximum supply and subject to the contract’s actual permissions.
 
-See [TOKENOMICS.md](TOKENOMICS.md) for supply facts and [TREASURY_POLICY.md](TREASURY_POLICY.md) for disclosure requirements.
+See [TOKENOMICS.md](TOKENOMICS.md) and [TREASURY_POLICY.md](TREASURY_POLICY.md) for further details.
 
-## 7. Governance framework
+## 7. Use cases and narrative
 
-The published `Legacy6CoinV2` contract uses a two-step ownership model: the current owner nominates a pending owner, and the pending owner must accept ownership.
+Legacy 6 Coin is initially a narrative-driven asset. Its early use cases revolve around:
 
-The contract owner may:
+- **Symbolic holding:** People who resonate with the story of resilience and legacy may hold L6C as a symbolic digital asset.
+- **Community identity:** L6C can serve as a badge of belonging to a community that values endurance, transparency, and long-term thinking.
+- **Future utility:** Potential utilities may include community tools, governance elements, or integrations with other platforms. These are exploratory possibilities, not commitments, and would be considered transparently with community input.
 
-- Mint tokens within the lifetime maximum supply.
-- Add witnesses and allocate their documented witness amount.
-- Nominate and transfer ownership through the acceptance process.
+No specific utility, service, listing, liquidity, or market outcome is promised.
 
-The owner cannot mint beyond the hard maximum supply. The contract does not provide confiscation or blacklist functionality and is not implemented through an upgradeable proxy.
+## 8. Governance framework
 
-Governance currently remains founder-controlled and should be described as such. Witness status does not confer minting, veto, ownership, or administrative authority unless a separately documented future governance mechanism makes that explicit.
+The published `Legacy6CoinV2` contract uses a two-step ownership transfer: the current owner nominates a pending owner, who must accept ownership. The owner can mint tokens within the lifetime supply cap and add witnesses with their defined allocation. Witness status does not confer ownership, minting authority, or administrative powers.
 
-Material governance principles are:
+Governance currently includes contract-level owner permissions and public documentation and disclosure practices. It should not be represented as token-holder voting or witness-based administrative control unless a separately documented mechanism is introduced.
 
-- Publicly document proposed and completed privileged actions.
-- Disclose amounts, recipients, purposes, dates, and transaction evidence when available.
+Material governance practices include:
+
+- Document the rationale and details of material decisions and privileged actions.
+- Disclose amounts, recipients, purposes, dates, and on-chain transaction evidence when available.
+- Reconcile issuance decisions with the contract’s supply limits and on-chain state.
 - Record material events in `DISCLOSURE_LEDGER.md`.
-- Reconcile issuance decisions with on-chain supply and events.
-- Avoid retrospective claims or undisclosed approval of actions.
-- Revisit concentrated authority and continuity risks as the project develops.
+- Make changes to governance and authority publicly reviewable.
 
-Governance is procedural and documentary; the existence of a disclosure does not itself authorize or validate an on-chain action.
+Documentation describes process; it does not itself authorize an on-chain transaction or change contract permissions. The owner’s authority is a concentration and key-management risk.
 
-## 8. Treasury policy
+## 9. Treasury and liquidity policy
 
-The treasury policy covers the stewardship of project-controlled assets and remaining issuance capacity.
+The treasury framework emphasizes transparency, accountability, stewardship, and public documentation. As of Legacy6Coin Archive v1.0, the remaining 334,000 L6C issuance capacity has not been formally allocated. Possible future uses, such as liquidity, infrastructure, ecosystem development, community initiatives, or a strategic reserve, are examples only and do not authorize or commit an allocation.
 
-The 334,000 L6C unallocated reserve has no approved allocation or promised use. Potential future uses may include liquidity, ecosystem development, technical infrastructure, community initiatives, strategic reserves, or governance needs, but listing a use does not authorize it.
+Any future issuance should disclose the amount, recipient, purpose, date, and transaction hash when available. Material treasury or liquidity actions should be documented before execution where practicable, or promptly afterward with an explanation if advance notice was not practicable. Records should be updated in the relevant policy and disclosure documents.
 
-Before future issuance, the project recommends:
+No initial mainnet liquidity allocation is finalized. Liquidity does not guarantee demand, price stability, utility, or exchange listings. Hidden allocations and misleading or undisclosed treasury actions are inconsistent with the project’s stated approach.
 
-1. Publishing the proposed amount, recipient, purpose, and timing.
-2. Recording the decision basis and dependencies.
-3. Executing only through authorized contract functions and within the supply cap.
-4. Recording the transaction hash and resulting on-chain state.
-5. Updating the disclosure ledger and relevant project documents.
+See [TREASURY_POLICY.md](TREASURY_POLICY.md), [LIQUIDITY_POLICY.md](LIQUIDITY_POLICY.md), and [DISCLOSURE_LEDGER.md](DISCLOSURE_LEDGER.md).
 
-Prohibited practices include hidden allocations, fabricated explanations, secret treasury movements intended to conceal material actions, and misleading treasury disclosures.
+## 10. Recovery planning
 
-Liquidity or treasury actions do not guarantee market demand, price stability, utility, or exchange availability.
+Recovery planning addresses key loss or compromise, failed or mistaken transactions, incorrect deployment inputs, and unavailable operational dependencies. Some confirmed blockchain transactions cannot be reversed, and recovery cannot be guaranteed.
 
-## 9. Recovery planning
+The project’s recovery principles include protecting recovery materials offline, testing procedures in a safe non-production environment, independently checking network and transaction inputs, preserving transaction and deployment records, and documenting known limitations. Private keys and seed phrases should not be placed in the repository or ordinary cloud notes.
 
-Recovery planning is required because private-key loss, wallet compromise, failed transactions, incorrect deployment inputs, and unavailable dependencies can produce actions that cannot be undone on-chain.
+See [RECOVERY_PLAN.md](RECOVERY_PLAN.md) and [MAINNET_LAUNCH_CHECKLIST.md](MAINNET_LAUNCH_CHECKLIST.md) for the recovery and deployment-readiness procedures.
 
-The project’s recovery framework requires:
+## 11. Testing program
 
-- Offline, geographically separated backups of privileged wallet recovery material.
-- Testing recovery procedures with a non-production wallet or safe environment.
-- Separation of treasury, founder-operational, and deployment responsibilities where practicable.
-- Independent review of network, chain ID, contract artifact, deployer, constructor inputs, and transaction parameters.
-- Recording transaction hashes, addresses, block data, approvals, and deployment artifacts.
-- Documenting whether a loss or failure is reversible and communicating confirmed limitations publicly.
+Testing and verification are distinct from an independent security audit. The testing program should assess the contract’s documented behavior, including supply limits, owner-only permissions, witness allocations, ownership transfer, token transfers, and relevant failure cases. Deployment rehearsals and post-deployment checks should verify the intended network, contract address, artifact, ownership state, supply, and transaction events.
 
-`MAINNET_LAUNCH_CHECKLIST.md` provides a staged go/no-go process for future deployment. A failed or mistaken on-chain transaction may be irreversible. Backup plans must never store private keys or seed phrases in the repository or ordinary cloud notes.
+The Sepolia deployment provides a testnet environment; passing tests or verifying source does not establish mainnet readiness or eliminate vulnerabilities. Testing records should be documented and updated as work is completed.
 
-## 10. Testing program
+See [TESTING_LOG.md](TESTING_LOG.md) for the testing record and [SECURITY.md](SECURITY.md) for security scope and disclosure information.
 
-The project distinguishes test coverage, source verification, independent review, and formal audit. The Sepolia deployment is the currently supported testnet deployment, and no Ethereum mainnet contract is currently supported.
+## 12. Documentation ecosystem
 
-The testing program should include:
+The project’s documentation provides supporting detail and should be read alongside this whitepaper:
 
-- Contract tests for supply, minting cap, witness allocations, ownership nomination and acceptance, transfer behavior, and burn behavior.
-- Testnet deployment rehearsals using pinned source, compiler settings, chain ID, account, and constructor inputs.
-- Independent comparison of deployed bytecode or explorer metadata with the reviewed source artifact.
-- Negative tests for minting above the cap and unauthorized privileged actions.
-- Post-deployment checks for address, network, ownership state, balances, and emitted events.
-- Key-loss and recovery exercises using non-production accounts.
-- Reconciliation of documentation with on-chain supply and transactions.
+- [SECURITY.md](SECURITY.md) — security scope, contract permissions, risks, and vulnerability disclosure information.
+- [TOKENOMICS.md](TOKENOMICS.md) — supply facts and issuance disclosure.
+- [GOVERNANCE.md](GOVERNANCE.md) — governance and decision-making framework.
+- [LIQUIDITY_POLICY.md](LIQUIDITY_POLICY.md) — liquidity and related disclosure standards.
+- [TREASURY_POLICY.md](TREASURY_POLICY.md) — treasury transparency and unallocated issuance capacity.
+- [DISCLOSURE_LEDGER.md](DISCLOSURE_LEDGER.md) — public record for material project disclosures.
+- [TESTING_LOG.md](TESTING_LOG.md) — testing record.
+- [MAINNET_LAUNCH_CHECKLIST.md](MAINNET_LAUNCH_CHECKLIST.md) — future deployment readiness and go/no-go review.
+- [RECOVERY_PLAN.md](RECOVERY_PLAN.md) — recovery planning and operational continuity.
 
-Testnet success does not imply mainnet readiness. Future mainnet deployment should proceed only after applicable checklist items, review evidence, wallet controls, and risk mitigations are complete.
+The repository’s version history and Legacy6Coin Archive v1.0 provide additional project provenance. Documents should be updated when facts change; a link or policy statement is not proof that an action has occurred.
 
-## 11. Security and disclosure
-
-The project publishes source and deployment information through the repository and seeks to make material changes reviewable. Source verification is intended to support public inspection; it is not a substitute for independent security review.
-
-Known risk areas include privileged owner-key compromise, key loss, incorrect deployment configuration, liquidity misconfiguration, concentrated issuance authority, documentation inconsistency, non-upgradeability, and external dependencies.
-
-Suspected vulnerabilities should be reported privately through the monitored contact channel identified in `SECURITY.md`. Until a private contact and response process are published, the repository should not be assumed to provide a confidential vulnerability-reporting channel.
-
-The project does not guarantee bounty awards, response timing, or outcomes. Public vulnerability details should be coordinated to reduce risk to users.
-
-## 12. Archive v1.0
-
-Legacy6Coin Archive v1.0 is the historical foundation for this whitepaper. It contains the project’s original vision, narrative, symbolic use cases, and initial roadmap.
-
-The v1.0 archive remains available in version history and in project documentation. It is retained for provenance, not as a representation that every earlier placeholder or planned milestone is current.
-
-The project’s current status supersedes outdated or incomplete statements in v1.0 where they conflict:
-
-- The current network is Sepolia testnet.
-- The Sepolia `Legacy6CoinV2` contract is source verified.
-- Ethereum mainnet is not deployed.
-- The remaining issuance capacity is 334,000 L6C and remains unallocated.
-- Source verification does not constitute an audit or guarantee.
-
-Material corrections and later revisions should be recorded in Git history and linked from public project documents.
-
-## 13. Use cases and narrative
-
-L6C may initially function as:
-
-- A symbolic holding representing resilience and identity.
-- A community identity token for people who value endurance and transparency.
-- A reference asset for future governance or community participation, if separate documented mechanisms are implemented.
-- A vehicle for transparent experimentation on a test network.
-
-Potential future uses do not establish current utility. Community tools, integrations, governance features, liquidity, and other services may be explored without promising implementation or market outcomes.
-
-## 14. Roadmap
+## 13. Roadmap
 
 ### Phase 1 — Foundation
 
-- Publish and preserve the founding narrative and project documentation.
-- Deploy and verify the Sepolia contract.
-- Record supply, ownership, treasury, governance, and security information.
-- Maintain the archive and disclosure ledger.
+- Deploy the token contract on Sepolia and publish source verification.
+- Establish the brand and founding narrative.
+- Publish the project repository and documentation.
+- Preserve the Legacy6Coin Archive v1.0 record and continue forming the community.
 
-### Phase 2 — Evaluation and expansion
+### Phase 2 — Evaluation
 
-- Continue testing and independent review.
-- Reconcile project documentation and resolve outstanding security-contact information.
-- Evaluate community tools and governance mechanisms publicly.
-- Consider liquidity only under a separately approved and disclosed policy.
+- Maintain security, tokenomics, governance, treasury, liquidity, recovery, and testing documentation.
+- Review potential community tools and integrations transparently.
+- Consider liquidity or other material actions only under a separately documented and disclosed process.
 
-### Phase 3 — Readiness for broader deployment
+### Phase 3 — Readiness for any broader deployment
 
-- Complete the mainnet launch checklist.
-- Resolve or explicitly accept deployment risks.
-- Rehearse deployment, verification, recovery, and disclosure procedures.
-- Proceed to mainnet only through a documented go/no-go decision.
+- Complete applicable security, wallet, testing, governance, recovery, and disclosure reviews.
+- Resolve or explicitly document outstanding risks.
+- Make any mainnet decision through a documented go/no-go review; a target date is not a commitment to deploy.
 
-Dates and milestones are planning targets, not commitments or guarantees. Mainnet deployment may be delayed or abandoned.
+Roadmap items are plans and may change or remain incomplete. Mainnet deployment, exchange listings, community growth, and future utility are not guaranteed.
+
+## 14. Community principles
+
+Legacy 6 Coin is community-first. The project’s future may be shaped by people who choose to participate, contribute, build, and hold.
+
+Key principles:
+
+- No forced hype.
+- No ROI claims, promises of profit, or price predictions.
+- No guarantees of value, utility, liquidity, listings, or outcomes.
+- Open communication and transparent documentation.
+- Focus on responsible stewardship and the project’s story.
 
 ## 15. Risks
 
-L6C and digital assets carry significant risk:
+Like all digital assets, Legacy 6 Coin carries significant risks, including price volatility, regulatory change, market conditions, liquidity limitations, smart-contract or network defects, key compromise or loss, concentrated owner authority, operational failure, and incomplete or outdated information.
 
-- **Market risk:** prices and liquidity may change rapidly, and participants may lose some or all of their funds.
-- **Technical risk:** smart contracts, compilers, wallet software, RPC providers, and blockchain infrastructure may contain defects or fail.
-- **Governance risk:** owner authority can be concentrated and may be exercised within the contract’s documented permissions.
-- **Key risk:** private-key theft or loss can enable or prevent privileged actions.
-- **Liquidity risk:** liquidity may be absent, lost, inaccessible, or incorrectly disclosed.
-- **Regulatory risk:** legal and tax requirements may change.
-- **Documentation risk:** outdated or inconsistent records may mislead readers.
-- **Operational risk:** continuity depends on people, systems, and third-party services.
+Participants should only use funds they can afford to lose, conduct their own research, independently verify network and contract details, and understand that transactions may be irreversible. L6C is not a guaranteed investment.
 
-Participants should independently verify the network and contract, use only funds they can afford to lose, conduct their own research, and understand that testnet tokens may have no market value.
+## 16. Disclaimer
 
-## 16. Community principles
+Legacy 6 Coin is a decentralized digital asset project. Nothing in this document constitutes financial, investment, legal, or tax advice, or a promise of profit. No ROI, return, price, market value, liquidity, utility, listing, or future outcome is promised or guaranteed.
 
-- No forced hype.
-- No guaranteed returns or profit claims.
-- No price prediction or promise of future value.
-- Open and consistent communication.
-- Public documentation of material actions.
-- Respect for uncertainty and responsible correction of errors.
-- Long-term stewardship over short-term manipulation.
+Holding or interacting with L6C is entirely at the user’s own risk and discretion. Source verification and public documentation are not guarantees of contract security or project performance.
 
-The project should distinguish official information from community speculation and should clearly label speculation, proposals, and completed actions.
+## 17. Conclusion
 
-## 17. Disclaimers
+Legacy 6 Coin is an attempt to bring a different kind of narrative into the global crypto space—one that honors resilience, transparency, and community. It remains a symbol forged in pressure and offered as an open, verifiable, and participatory digital asset. The project’s transparency-first approach asks it to document what is known, identify what remains uncertain, and avoid turning plans into promises.
 
-Legacy6Coin is a digital asset project. Nothing in this whitepaper constitutes financial, investment, legal, or tax advice or a promise of profit.
+**Legacy 6 Coin (L6C) — Built for the world.**
 
-Holding or interacting with L6C is undertaken at the participant’s own risk. Nothing states or implies that L6C has, or will have, a particular market value, liquidity, listing, utility, or demand.
-
-Contract source verification, documentation, and testnet deployment provide evidence for review but do not guarantee security or outcomes.
-
-## 18. Conclusion
-
-Legacy6Coin is an attempt to build a transparent narrative around resilience without converting uncertainty into hype. The project has moved beyond its original narrative foundation to a documented Sepolia deployment, but it remains in an early, testnet, and review-oriented phase.
-
-Its standard is not to claim certainty, but to preserve the record: deployment facts, allocation limits, governance authority, treasury constraints, recovery assumptions, testing obligations, and known risks.
-
-**Legacy 6 Coin (L6C) — Built for the world, documented before expansion.**
-
-**Founder:** Michael Wamai Maina Gatane
-
-**Founder statement:** “Scars that sing. Echoes that remain. Legacy that walks forward.”
+**Founder:** Michael Wamai Maina Gatane  
+“Scars that sing. Echoes that remain. Legacy that walks forward.”
